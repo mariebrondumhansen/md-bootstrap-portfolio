@@ -1,6 +1,26 @@
-
-
 /*burgermenu*/
+/*Google icon*/
+/* Regler for størrelse på ikoner. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/*Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+
+
+
+
+@media (max-width: 768px){
+	.menu-desktop{display: none;}
+	/*------------------------------------------------MDB BURGERMENU---------------------------------------------------------------------------------*/
 /* Icon 1 */
 
 .animated-icon1, .animated-icon2, .animated-icon3, .animated-icon4 {
@@ -118,7 +138,7 @@
 
 .animated-icon3.open span:nth-child(4) {
   top: 11px;
-  width: 100%;
+  width: 0%;
   left: 50%;
 }
 
@@ -170,3 +190,7 @@
   top: 21px;
   left: 8px;
 }
+Hamburger icon within accordio
+	
+}
+/*------------------------------------------------MDB BURGERMENU END---------------------------------------------------------------------------------*/
