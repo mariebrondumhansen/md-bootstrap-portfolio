@@ -30,12 +30,66 @@
 </head>
 
 <body>
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark primary-color">
 
-<!--Navbar på små enheder-->
-<nav class="navbar navbar-dark  indigo darken-2 mdl-layout--small-screen-only">
     <!-- Navbar brand -->
     <a class="navbar-brand" href="#">Navbar</a>
-<ul class="nav justify-content-end grey lighten-4 py-4">
+
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="basicExampleNav">
+
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home
+                    <span class="sr-only">(current)</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+            </li>
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+
+        </ul>
+        <!-- Links -->
+
+        <form class="form-inline">
+            <div class="md-form my-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            </div>
+        </form>
+    </div>
+    <!-- Collapsible content -->
+
+</nav>
+<!--/.Navbar-->
+<!--Navbar på små enheder-->
+<header>
+<nav class="navbar navbar-dark indigo darken-2 col-lg-12">
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="#">Navbar</a>
+    
+    <div class="col-md-11 menu-desktop">
+<ul class="nav justify-content-end py-12 ">
     <li class="nav-item">
         <a class="nav-link active" href="#!">Active</a>
     </li>
@@ -49,6 +103,7 @@
         <a class="nav-link disabled" href="#!">Disabled</a>
     </li>
 </ul>
+   </div>
     <!-- Collapse button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent22" aria-controls="navbarSupportedContent22"
         aria-expanded="false" aria-label="Toggle navigation"><div class="animated-icon4"><span></span><span></span><span></span></div></button>
@@ -74,6 +129,9 @@
     <!-- Collapsible content -->
 
 </nav>
+
+</header>
+
 <!--/.Navbar-->
     <!-- Start your project here-->
     <div>
@@ -85,6 +143,7 @@
             <p class="animated fadeIn text-muted">MDB Team</p>
         </div>
     </div>
+    
     <!-- /Start your project here-->
 
    <!------------------------------------------------------------footer------------------------------------------------------->
@@ -110,11 +169,11 @@
             </a>
             <!--Pinterest-->
             <a class="pin-ic">
-              <i class="fa fa-pinterest fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+              <a href="https://www.pinterest.dk/mariebrondumhansen/" target="_blank" i class="fa fa-pinterest fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
             </a>
             <!-- Facebook -->
             <a class="fb-ic">
-              <i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+              <a href="https://www.instagram.com/mariebrondumhansen/" target="_blank" i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
             </a>          
          </div>
         </div>
