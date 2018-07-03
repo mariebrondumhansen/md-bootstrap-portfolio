@@ -27,9 +27,15 @@ min-height: 100vh;
 	z-index: 3;
 }
 
-.nav-link{ 
-justify-content: center;
-}
+/*mobil-menu social icon */
+	.mobil-menu-social{display: flex; 
+		flex-direction: row;
+		padding-top: 5px;
+		
+	}
+	.ins-ic:hover{
+		
+	}
 	/*------------------------------------------------MDB BURGERMENU---------------------------------------------------------------------------------*/
 /* Icon 1 */
 
@@ -76,7 +82,7 @@ justify-content: center;
 }
 */
 .animated-icon4 span {
-    background: black;
+    background: white;
 }
 /*
 .animated-icon1 span:nth-child(1) {
