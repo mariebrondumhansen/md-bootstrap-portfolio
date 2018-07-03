@@ -12,17 +12,24 @@
 /* Rules for using icons as white on a dark background. */
 .material-icons.md-light { color: rgba(255, 255, 255, 1); }
 .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+/*------------------------------mobil dropdown--------------------------------------------------------------------------------------------*/
 
-.mobil-menu{ 
-min-height: 100vh;
-	z-index: 3;
-}
+
 
 
 
 @media (max-width: 991px){
 	/*skjul dekstop menu*/
 	.menu-desktop{display: none;}
+	/*Dropdown menu fylder hele skærmen*/
+.mobil-menu{ 
+min-height: 100vh;
+	z-index: 3;
+}
+
+.nav-link{ 
+justify-content: center;
+}
 	/*------------------------------------------------MDB BURGERMENU---------------------------------------------------------------------------------*/
 /* Icon 1 */
 
@@ -69,7 +76,7 @@ min-height: 100vh;
 }
 */
 .animated-icon4 span {
-    background: white;
+    background: black;
 }
 /*
 .animated-icon1 span:nth-child(1) {
