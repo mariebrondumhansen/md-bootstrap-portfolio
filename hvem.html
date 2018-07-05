@@ -30,6 +30,29 @@
     <!-- Your custom styles (optional) -->
     <link href="css/style.css" rel="stylesheet">
 
+<!--Cookie oplysning-->
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#3937a3"
+    },
+    "button": {
+      "background": "#e62576"
+    }
+  },
+  "theme": "edgeless",
+  "position": "bottom-right",
+  "content": {
+    "message": "Website bruger cookies for at give dig en bedre oplevelse",
+    "dismiss": "Forstået!",
+    "link": "Læs mere"
+  }
+})});
+</script>
 </head>
 
 <body>
@@ -41,12 +64,13 @@
 <nav class="navbar navbar-dark  indigo darken-2">
 
     <!-- Navbar brand -->
-    <a class="navbar-brand" href="#"><img src="https://mdbootstrap.com/img/logo/mdb-transparent.png" height="30" class="d-inline-block align-top" alt=""> Marie Brøndum Hansen
+    <a class="navbar-brand" href="index.html"><img src="https://mdbootstrap.com/img/logo/mdb-transparent.png" height="30" class="d-inline-block align-top" alt=""> Marie Brøndum Hansen
     </a>
 
     <!-- Collapse button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent22" aria-controls="navbarSupportedContent22"
         aria-expanded="false" aria-label="Toggle navigation"><div class="animated-icon4"><span></span><span></span><span></span></div></button>
+        
 
     <!-- Collapsible content -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent22">
@@ -117,7 +141,7 @@
             </a>
             </a>
             <!--Mail-->
-           <a class="material-icons fa-lg white-text animated zoomIn infinit" href="mailto:mariebrondumhansen.dk" id="mail" style="font-size: 60px;">mail
+           <a class="material-icons fa-lg white-text animated zoomIn infinit" href="mailto:mariebrondumhansen.dk" style="font-size: 60px;">mail
            </a> 
         
         </div>
@@ -136,7 +160,7 @@
      <!--Hvad laver jeg?-->
       <div class="row">
       <div class="col-md-9">
-      	<h1 class="animated mb-12 mt-5">Hvad laver jeg?</h1>
+      	<h1 class="animated mb-12 mt-5">Hvad laver hun?</h1>
       	
 <p>I love great ideas, which is why creative thinking is the foundation of my work. My main goal is to make creative work that make people interact and react.</p>
 
@@ -156,7 +180,7 @@
       	<img src="img/Hvem/Marie.jpg" width="100%" height="auto">
       </div>
        <div class="col-md-9 mt-5">
-      	<h1 class="animated  mb-12">Hvem er jeg?</h1>
+      	<h1 class="animated  mb-12">Hvem er hun?</h1>
       	
 <p>My name is Sonja Lovdal and I am 22 years old. I grew up in Aalborg, Denmark and now live and work in Copenhagen.</p>
 
@@ -172,7 +196,7 @@
        	
        </div>
         
-    </div>
+    
     
     
      </main>
@@ -180,7 +204,7 @@
     <!--instagram-->
     <div class="flex-center flex-column">
     <h2>Følg med på instagram</h2>
-    <p>#Mariebrondumhansen</p><!--få til at zoom-in ved scroll-->
+    <p>@mariebrondumhansen</p><!--få til at zoom-in ved scroll-->
     <!--Instagram widget-->
     <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/f9379534815b5d488652e50813ad569a.html" scrolling="no" allowtransparency="true" class="lightwidget-widget col-lg-8" style="width:100%;border:0;overflow:hidden;"></iframe>
     </div>
@@ -226,7 +250,7 @@
             </a>   -->       
          </a></a>
          <!--mail-->
-         <a class="material-icons fa-lg white-text " href="mailto:mariebrondumhansen.dk" id="mail" style="font-size: 40px;">mail</a>
+         <a class="material-icons fa-lg white-text " href="mailto:mariebrondumhansen.dk" style="font-size: 40px;">mail</a>
          </a></div>
         </div><a class="li-ic" ><a class="ins-ic"><a class="pin-ic">
         <!-- Grid column -->
@@ -255,6 +279,8 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
-</a></a></a></body>
+</a></a></a>
+
+</body>
 
 </html>
