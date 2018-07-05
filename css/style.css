@@ -208,6 +208,9 @@ min-height: 100vh;
   left: 8px;
 }
 
+
+/*fjern underline på link*/
+.decoration-none{text-decoration: none}
 /*------------------------------------------------MDB BURGERMENU END---------------------------------------------------------------------------------*/
 /*
 .mobil-logo{display: none;}
